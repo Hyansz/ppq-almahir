@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Hero />
-      <Imglist />
       <About/>
+      <Imglist />
       <Unit />
       <Footer/>
     </>

@@ -23,11 +23,9 @@ export default function Navigation() {
                     <Navbar.Link active href="#home">
                         <p>Home</p>
                     </Navbar.Link>
-                    <Navbar.Link href="#gallery">Gallery Kegiatan</Navbar.Link>
                     <Navbar.Link href="#about">About</Navbar.Link>
-                    <Navbar.Link href="#unit">
-                        Unit Unit PPQ Al Mahir
-                    </Navbar.Link>
+                    <Navbar.Link href="#gallery">Gallery Kegiatan</Navbar.Link>
+                    <Navbar.Link href="#unit">Unit Unit PPQ Al Mahir</Navbar.Link>
                     <Navbar.Link href="#contact">Contact</Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
