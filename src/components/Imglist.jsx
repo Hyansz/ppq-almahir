@@ -53,37 +53,37 @@ export default function App() {
                 >
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img1} alt="" />
+                            <img src={Img1} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan KBM Dinniyyah Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img2} alt="" />
+                            <img src={Img2} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan KBM IT Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img3} alt="" />
+                            <img src={Img3} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Rihlah Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img4} alt="" />
+                            <img src={Img4} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img4} alt="" />
+                            <img src={Img4} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img4} alt="" />
+                            <img src={Img4} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
@@ -118,25 +118,25 @@ export default function App() {
                 >
                     <SwiperSlide>
                         <div className="w-full">
-                            <img src={Img1} alt="" />
+                            <img src={Img1} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan KBM Dinniyyah Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full">
-                            <img src={Img2} alt="" />
+                            <img src={Img2} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan KBM IT Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full">
-                            <img src={Img3} alt="" />
+                            <img src={Img3} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Rihlah Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full">
-                            <img src={Img4} alt="" />
+                            <img src={Img4} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
