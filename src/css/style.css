@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    /* background: rgb(0,0,0); */
+    background: linear-gradient(90deg, rgba(0,0,0,0.5) 19%, rgba(0,0,0,0.5) 58%), url('./../assets/hero.png') center;
+    background-size: cover;
+}
+
+.hero .img-hero img {
+    display: none;
+}
+
+.maps {
+    width: 326px;
+}
