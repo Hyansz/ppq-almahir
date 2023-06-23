@@ -34,3 +34,9 @@
         width: 300px;
     }
 }
+
+@media (max-width: 860px) {
+    .maps {
+        width: 330px;
+    }
+}
