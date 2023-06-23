@@ -10,11 +10,11 @@ export default function Footer() {
         <div data-aos="zoom-in" data-aos-duration="2000">
             <footer className="bg-white dark:bg-gray-900 w-11/12 m-auto mt-20" id='contact'>
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                    <div className="md:flex md:justify-between gap-6">
+                    <div className="md:flex md:justify-between gap-6 bg-slate-300">
                         <div className="mb-6 md:mb-0">
-                            <div className="flex flex-col gap-5">
+                            <div className="flex flex-col gap-5 justify-center">
                                 <img src={Img2} className="w-56" alt="FlowBite Logo" />
-                                <p className='w-80'>Yayasan Almahir Attarbawiyyah Surakarta hadir di tengah Ummat untuk berkiprah pada bidang pendidikan Islam dan bidang sosial. Lebih khusus dalam bidang pendidikan Islam melihat kebutuhan masyarakat akan SDM yang bertakwa, berakhlak, hafizh al-Qur’an, dan menguasai ilmu Tekhnologi (IT).</p>
+                                <p className='lg:w-80 text-justify lg:text-left'>Yayasan Almahir Attarbawiyyah Surakarta hadir di tengah Ummat untuk berkiprah pada bidang pendidikan Islam dan bidang sosial. Lebih khusus dalam bidang pendidikan Islam melihat kebutuhan masyarakat akan SDM yang bertakwa, berakhlak, hafizh al-Qur’an, dan menguasai ilmu Tekhnologi (IT).</p>
                             </div>
                         </div>
                         <div className="mb-6 md:mb-0">

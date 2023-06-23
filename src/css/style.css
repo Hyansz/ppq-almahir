@@ -16,5 +16,15 @@
 }
 
 .maps {
-    width: 326px;
+    width: auto;
+}
+
+@media (max-width: 580px) {
+    .maps {
+        width: 260px;
+    }
+
+    .f-text {
+        width: 80%;
+    }
 }
