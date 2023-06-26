@@ -25,7 +25,7 @@ export default function App() {
     };
 
     return (
-        <div className="w-11/12 m-auto xl:bg-slate-300 2xl:bg-red-300" id="gallery">
+        <div className="w-11/12 m-auto" id="gallery">
             <div data-aos="zoom-in-up"data-aos-duration="2000">
                 <div className="text-center p-6 mt-8">
                     <h1 className="py-3 px-10">Gallery Kegiatan Santri Al Mahir</h1>
