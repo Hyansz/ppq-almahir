@@ -14,12 +14,7 @@ export default function Footer() {
                         <div className="mb-6 md:mb-0 md:w-10/12 md:m-auto xl:m-0">
                             <div className="flex flex-col gap-5">
                                 <img src={Img2} className="w-56 md:m-auto md:pt-5 xl:m-0 xl:pt-0" alt="" />
-                                <p className='lg:w-full text-justify lg:text-center md:text-center xl:text-left xl:w-11/12'>Yayasan Almahir Attarbawiyyah Surakarta hadir di tengah Ummat untuk berkiprah pada bidang pendidikan Islam dan bidang sosial. Lebih khusus dalam bidang pendidikan Islam melihat kebutuhan masyarakat akan SDM yang bertakwa, berakhlak, hafizh al-Qur’an, dan menguasai ilmu Tekhnologi (IT).</p>
-                            </div>
-                        </div>
-                        <div className="mb-6 md:mb-0">
-                            <div className="flex items-center">
-                                <div className=" w-32" />
+                                <p className='lg:w-full text-justify lg:text-center md:text-center xl:text-left xl:w-11/12'>Yayasan Almahir Attarbawiyyah Surakarta hadir di tengah Ummat untuk berkiprah pada bidang pendidikan Islam dan bidang sosial. Lebih khusus dalam bidang pendidikan Islam melihat kebutuhan masyarakat akan SDM yang bertakwa, berakhlakul karimah, berakidah shahihah, hafizh al-Qur’an, dan menguasai ilmu Tekhnologi (IT)</p>
                             </div>
                         </div>
                         <div className="grid gap-8 text-center sm:gap-6 sm:grid-cols-3 md:grid-cols-1 md:text-center lg:flex lg:m-auto xl:text-left xl:w-full">
