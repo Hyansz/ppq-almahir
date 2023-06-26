@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Imglist from './components/Imglist'
 import Unit from './components/Unit'
+import DefaultTabs from './components/text'
 import './css/style.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className='container'>
       <Hero />
       <About/>
+      <DefaultTabs />
       <Imglist />
       <Unit />
       <Footer/>
