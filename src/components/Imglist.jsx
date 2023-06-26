@@ -13,6 +13,8 @@ import Img1 from "./../assets/kbm-diniyyah.jpg";
 import Img2 from "./../assets/kbm-it.jpg";
 import Img3 from "./../assets/rihlah.png";
 import Img4 from "./../assets/seminar.jpg";
+import Img5 from "./../assets/santri-tpa.jpg"
+import Img6 from "./../assets/santri-tpa2.jpg"
 
 export default function App() {
     const progressCircle = useRef(null);
@@ -77,14 +79,14 @@ export default function App() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img4} alt="" className="rounded-xl" />
-                            <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
+                            <img src={Img5} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Pengajian Santri TPA PPQ Al Mahir & Santri PPQIT Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-96">
-                            <img src={Img4} alt="" className="rounded-xl" />
-                            <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
+                            <img src={Img6} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan Lomba Santri TPA PPQ Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <div className="autoplay-progress" slot="container-end">
@@ -138,6 +140,18 @@ export default function App() {
                         <div className="w-full">
                             <img src={Img4} alt="" className="rounded-xl" />
                             <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-full">
+                            <img src={Img5} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Pengajian Santri TPA PPQ Al Mahir & Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-full">
+                            <img src={Img6} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan Lomba Santri TPA PPQ Al Mahir</p>
                         </div>
                     </SwiperSlide>
                     <div className="autoplay-progress" slot="container-end">
