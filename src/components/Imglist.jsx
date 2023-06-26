@@ -29,12 +29,8 @@ export default function App() {
             <div data-aos="zoom-in-up"data-aos-duration="2000">
                 <div className="text-center p-6 mt-8">
                     <h1 className="py-3 px-10">Gallery Kegiatan Santri Al Mahir</h1>
-                    <p className="lg:w-6/12 m-auto">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequatur voluptatum illo perferendis officiis minus
-                        consequuntur magni quam alias, ex earum voluptate.
-                        Exercitationem est minima, nemo facere sint repellat quaerat
-                        ab.
+                    <p className="lg:w-6/12 m-auto capitalize tracking-wider">
+                        Berikut gallery kegiatan santri TPA PPQ Al Mahir dan santri PPQIT Al Mahir
                     </p>
                 </div>
                 <Swiper
