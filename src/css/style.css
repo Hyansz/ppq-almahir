@@ -14,29 +14,3 @@
 .hero .img-hero img {
     display: none;
 }
-
-.maps {
-    width: auto;
-}
-
-@media (max-width: 580px) {
-    .maps {
-        width: 260px;
-    }
-
-    .f-text {
-        width: 80%;
-    }
-}
-
-@media (max-width: 810px) {
-    .maps {
-        width: 300px;
-    }
-}
-
-@media (max-width: 860px) {
-    .maps {
-        width: 330px;
-    }
-}

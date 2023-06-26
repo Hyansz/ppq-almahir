@@ -24,7 +24,7 @@ export default function App() {
 
     return (
         <div className="w-11/12 m-auto" id="gallery">
-            <div data-aos="zoom-in-up">
+            <div data-aos="zoom-in-up"data-aos-duration="2000">
                 <div className="text-center p-6 mt-8">
                     <h1 className="py-3 px-10">Gallery Kegiatan Santri Al Mahir</h1>
                     <p className="lg:w-6/12 m-auto">
@@ -104,17 +104,17 @@ export default function App() {
                     }}
                     creativeEffect={{
                         prev: {
-                            shadow: true,
+                            shadow: false,
                             translate: ["-120%", 0, -500],
                         },
                         next: {
-                            shadow: true,
+                            shadow: false,
                             translate: ["120%", 0, -500],
                         },
                     }}
                     modules={[EffectCreative, Autoplay]}
                     onAutoplayTimeLeft={onAutoplayTimeLeft}
-                    className="mySwiper2"
+                    className="mySwiper2 md:w-6/12 shadow-none"
                 >
                     <SwiperSlide>
                         <div className="w-full">
