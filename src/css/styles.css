@@ -27,17 +27,59 @@ body {
     display: none;
 }
 
-@media (min-width: 1024px) {
-    .mySwiper2 {
-        display: none;
-    }
-}
-
 @media (max-width: 990px) {
     .mySwiper {
         display: none;
     }
+
     .mySwiper2 {
         display: block;
+    }
+
+    .mySwiper3 {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .mySwiper {
+        display: block;
+    }
+
+    .mySwiper2 {
+        display: none;
+    }
+
+    .mySwiper3 {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .mySwiper {
+        display: none;
+    }
+
+    .mySwiper2 {
+        display: none;
+    }
+
+    .mySwiper3 {
+        display: block;
+    }
+}
+
+@media (min-width: 1536px) {
+    .mySwiper {
+        display: block;
+    }
+
+    .mySwiper2 {
+        display: none;
+    }
+
+    .mySwiper3 {
+        display: none;
     }
 }

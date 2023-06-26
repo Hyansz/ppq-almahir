@@ -7,13 +7,13 @@ import './css/style.css'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Hero />
       <About/>
       <Imglist />
       <Unit />
       <Footer/>
-    </>
+    </div>
   )
 }
 

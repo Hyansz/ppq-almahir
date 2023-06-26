@@ -25,7 +25,7 @@ export default function App() {
     };
 
     return (
-        <div className="w-11/12 m-auto" id="gallery">
+        <div className="w-11/12 m-auto xl:bg-slate-300 2xl:bg-red-300" id="gallery">
             <div data-aos="zoom-in-up"data-aos-duration="2000">
                 <div className="text-center p-6 mt-8">
                     <h1 className="py-3 px-10">Gallery Kegiatan Santri Al Mahir</h1>
@@ -48,6 +48,65 @@ export default function App() {
                     modules={[Pagination, Navigation, Autoplay]}
                     onAutoplayTimeLeft={onAutoplayTimeLeft}
                     className="mySwiper cursor-grab pb-20"
+                >
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img1} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan KBM Dinniyyah Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img2} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan KBM IT Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img3} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan Rihlah Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img4} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan Seminar Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img5} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Pengajian Santri TPA PPQ Al Mahir & Santri PPQIT Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-96">
+                            <img src={Img6} alt="" className="rounded-xl" />
+                            <p className="p-3 text-center">Kegiatan Lomba Santri TPA PPQ Al Mahir</p>
+                        </div>
+                    </SwiperSlide>
+                    <div className="autoplay-progress" slot="container-end">
+                        <svg viewBox="0 0 48 48" ref={progressCircle}>
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span ref={progressContent}></span>
+                    </div>
+                </Swiper>
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={10}
+                    loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation, Autoplay]}
+                    onAutoplayTimeLeft={onAutoplayTimeLeft}
+                    className="mySwiper3 cursor-grab pb-20"
                 >
                     <SwiperSlide>
                         <div className="w-96">

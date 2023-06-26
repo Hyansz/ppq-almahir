@@ -49,10 +49,10 @@ export default function Footer() {
                             </div>
                             <div className='md:flex md:justify-center md:m-auto md:gap-5 xl:my-0'>
                                 <div className='pb-10'>
-                                    <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white xl:mb-6">Donasi</h2>
+                                    <h2 className="mb-1 text-sm font-semibold text-gray-900 uppercase dark:text-white xl:mb-6 md:pb-5">Donasi</h2>
                                     <ul className="text-gray-600 dark:text-gray-400 font-medium">
                                         <li className="mb-4">
-                                            <img src={Bsi} alt="" className='lg:w-36 lg:pb-5 md:w-56 md:pb-5 md:m-auto w-52 pb-4 m-auto'/>
+                                            <img src={Bsi} alt="" className='lg:w-36 lg:pb-5 md:w-40 md:pb-5 md:m-auto w-52 pb-4 m-auto'/>
                                             <h3>6565698893</h3>
                                             <p>Yayasan Almahir Attarbawiyyah</p>
                                         </li>
