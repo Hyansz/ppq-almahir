@@ -12,8 +12,8 @@ export default function Hero () {
     return (
         <div>
             <Navigation/>
-            <div className="hero lg:py-20">
-                <div className="hero-text text-center lg:text-left py-20 lg:p-0 w-11/12 lg:w-5/12 m-auto lg:mr-40 text-white">
+            <div className="hero lg:py-20 xl:px-20">
+                <div className="hero-text text-center lg:text-left py-20 lg:p-0 w-11/12 lg:w-5/12 m-auto lg:mr-40 xl:w-7/12 2xl:w-5/12 text-white">
                     <div data-aos="zoom-in" data-aos-duration="1500">
                         <h3 className="text-sm mb-2 lg:pb-3">YAYASAN AL MAHIR ATTARBAWIYYAH SURAKARTA</h3>
                         <h1 className="font-bold text-3xl lg:text-6xl w-72 lg:w-full lg:pr-10 m-auto mb-1 lg:pb-6">Pusat Pendidikan Al-Quran Al-Mahir</h1>
